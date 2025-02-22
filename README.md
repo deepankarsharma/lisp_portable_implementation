@@ -1,3 +1,6 @@
+The book is available on archive.org [HERE](https://archive.org/details/lispportableimpl0000hekm)
+This source code was taken from the tar file available on archive.org [HERE](https://archive.org/details/kernel-lisp)
+
 The source code of Kernel is broken down into a number of files where each file consists of a set of closely related functions. A summary of the files is given below.
 
 1. **kernel.h** Contains header definitions. These include type declarations, macro-definitions, and external declarations. All global variables that are referred to by more than one file and all C functions that implement Kernel functions (and some lower-level functions) are declared as external in this file. By including this file in every other file, redeclarations of global types, variables, and functions are avoided.
